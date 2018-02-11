@@ -14,20 +14,26 @@
     <div class="container">
         <!--button for random Wiki article-->
         <form action="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
-            <input type="submit" id="randBtn" value="Click here for random article"/>
+            <input type="submit" id="randBtn" value="Click HERE for random article"/>
         </form>
         <!--seach box to search Wiki articles-->
         <div class = "searchBox">
             <!--clickable search icon-->
-            <span id="searchIcon"><i class="fa fa-search"></span>
+            <div id="icon">
+                <button class="btn" onclick="toggleHide()"><i class="fa fa-search"></i></button>
+            </div>
             <!--text input box-->
-            <input type="text" id="textInput" placeholder="Search Wikipedia..."/>
+            <div id="textBox">
+                <form id="search" action="#">
+                    <input type="text" id="textInput" onkeypress="handle()" placeholder="Search Wikipedia..."/>
+                </form>    
+            </div>
             <p id="searchTxt" >Click icon to search</p>
             <!--Displays search results-->
             <div class="resultBox"></div>
                 <p id="title">Title</p>
                 <p id="snippet">Snippet</p>
             <div>     
-    </div>
+        </div>
 </body>
 </html>
