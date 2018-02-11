@@ -8,16 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!--button for random Wiki article-->
-    <form action="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
-        <input type="submit" value="Click for random article"/>
-    </form>
-    <!--seach box to search Wiki articles-->
-    <div class = "searchBox">
-        <input type="text" placeholder="Search Wikipedia" name="search">
-        <button type="submit"><i class "fa fa-search"></i></button>
-        
+    <div class="container">
+        <!--button for random Wiki article-->
+        <form action="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            <input type="submit" id="randBtn" value="Click here for random article"/>
+        </form>
+        <!--seach box to search Wiki articles-->
+        <div class = "searchBox">
+            <!--clickable search icon-->
+            <button id="btn" type="submit"/>
+            <i class="fa fa-search"></i></button><br>
+            <!--text input box-->
+            <input type="text" id="textInput" value=input placeholder="Search Wikipedia..."/>
+            <p id="searchTxt" >Click icon to search</p>
+        <!--Displays search results-->
+            <div class="resultBox"></div>
+                <p id="title">Title</p>
+                <p id="snippet">Snippet</p>
+            <div>     
+    </div>
 </body>
 </html>

@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(22, 22, 92)
+}
+
+.container {
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+#randBtn {
+    background-color: rgb(22, 22, 92);
+    color: #ffffff;
+    border: none;
+    margin-left: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+#textInput {
+    border-radius: 12px;
+    background-color: rgb(101, 101, 155);
+    border-color: rgb(243, 122, 8);
+    border-width: 6px;
+    width: 250px;
+    height: 25px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16;
+    padding-left: 10px;    
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+#btn {
+    background-color: rgb(22, 22, 92);
+    color: rgb(243, 122, 8);
+    height: 25px;
+    border: none;
+    font-size: 100px;
+    margin-left: 20%;
+    outline: none;
+}
+
+#searchTxt {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15%;
+}
+
+.resultBox {
+    color: #ffffff;
+}
+
+#title {
+    color: #ffffff;
+}
+
+#snippet {
+    color: #ffffff;
+}
+
