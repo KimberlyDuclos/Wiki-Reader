@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
@@ -19,12 +21,11 @@
         <!--seach box to search Wiki articles-->
         <div class = "searchBox">
             <!--clickable search icon-->
-            <button id="btn" type="submit"/>
-            <i class="fa fa-search"></i></button><br>
+            <span id="searchIcon"><i class="fa fa-search"></span>
             <!--text input box-->
-            <input type="text" id="textInput" value=input placeholder="Search Wikipedia..."/>
+            <input type="text" id="textInput" placeholder="Search Wikipedia..."/>
             <p id="searchTxt" >Click icon to search</p>
-        <!--Displays search results-->
+            <!--Displays search results-->
             <div class="resultBox"></div>
                 <p id="title">Title</p>
                 <p id="snippet">Snippet</p>

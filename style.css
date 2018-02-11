@@ -15,6 +15,7 @@ body {
     margin-left: 7%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
+    cursor: cell;
 }
 
 #textInput {
@@ -34,7 +35,7 @@ body {
     color: #ffffff;
 }
 
-#btn {
+#searchIcon {
     background-color: rgb(22, 22, 92);
     color: rgb(243, 122, 8);
     height: 25px;
@@ -42,6 +43,7 @@ body {
     font-size: 100px;
     margin-left: 20%;
     outline: none;
+    cursor: cell;
 }
 
 #searchTxt {
