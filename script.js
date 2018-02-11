@@ -7,6 +7,5 @@ function search(){
                 document.getElementById("title").innerHTML = search[0].title;
                 document.getElementById("snippet").innerHTML = search[0].snippet;    
             });
-        }
-    });
-}
+        });
+    };

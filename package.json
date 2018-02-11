@@ -1,0 +1,23 @@
+{
+  "name": "wiki-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node_modules/reload/bin/reload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimberlyDuclos/Wiki-Reader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimberlyDuclos/Wiki-Reader/issues"
+  },
+  "homepage": "https://github.com/KimberlyDuclos/Wiki-Reader#readme",
+  "dependencies": {
+    "reload": "^2.2.2"
+  }
+}
