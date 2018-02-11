@@ -22,9 +22,10 @@ function toggleHide() {
 
 function handle(e) {
     if(e.keycode === 13) {
-        $.getJSON("https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=" + searchQuery, function(json) {
+        /*$.getJSON("https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=" + searchQuery, function(json) {
                 document.getElementById("title").innerHTML = search[0].title;
-                document.getElementById("snippet").innerHTML = search[0].snippet; 
-        });
+                document.getElementById("snippet").innerHTML = search[0].snippet; */
+                alert("working");
+        /*});*/
     }
 }
