@@ -1,9 +1,5 @@
 var searchQuery;
 
-/*function search(){
-    
-};*/
-
 $(document).ready(function() {
     document.getElementById("textInput").hidden=true;
 
@@ -18,8 +14,9 @@ $(document).ready(function() {
                 "srsearch":searchQuery,
                 "list":"search"
             }).done(function(data) {
-                document.getElementById("title").innerHTML= JSON.stringify(data);
-                document.getElementById("snippet").innerHTML=search[0].title;
+                document.getElementById("title").value= JSON.stringify(data);
+                document.getElementById("snippet").value=search[0].snippet;
+                document.getElementById("snippet").value=data[3][1];
             });
         }
     });
